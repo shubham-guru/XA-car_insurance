@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+ .navBar {
+   background-color: #e9deda;
+   overflow: hidden;
+   width: 100%;
+   color: white;
+   border-bottom: 1px solid #eee;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding: 2%;
+    font-size: 1.3em;
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+}
+.show-nav {
+    height: 120px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    -webkit-animation: focus-in-contract-bck 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-contract-bck 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.toggleButton{
+    font-size: 30px;
+    margin-right: 30px;
+    color: #000;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    float: right;
+}
+.anchor{
+    color: #222;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+.list2{
+  display: flex;
+}
+.anchor:hover{
+    transition: 0.3s;
+    color: #ff5715;
+}
+.anchorGetQuote{
+    background-color: #ff5715;
+    padding: 1% 2% 1% 2%;
+}
+@-webkit-keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+/* Media screen size */
+@media screen and (min-width: 768px) {
+  .toggleButton {
+        display: none;
+    }
+
+    .links {
+        height: auto;
+        display: flex;
+    }
+
+    li {
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.heading div{
+    text-align: center;
+    margin: 2%;
+    width: 50%;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 5px 5px 10px #000; 
+}
+.heading span{
+    font-size: 25px;
+    background-color: #42cfca;
+    padding: 0% 4% 0% 4%;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px #42cfca;
+    color: #fff;
+    margin: 5%;
+}
+.heading h3{
+    font-family: 'Readex Pro', sans-serif;
+    text-shadow: 5px 5px 10px #42cfca;
+    letter-spacing: 8pt;
+    animation: flash;
+    animation-duration: 1s;
+}
+.title{
+    text-align: center;
+    letter-spacing: 5pt; 
+}
+.upperBar{
+    color: #fff;
+    font-size: 2em;
+    background-color: #000;
+    padding: 1%;
+}
+.table{
+    width: 100%;
+    background-color: #c7fffd;
+}
+.table th{
+    padding: 1%;
+    font-family: 'Readex Pro', sans-serif;
+    text-shadow: 5px 5px 10px #42cfca;
+    letter-spacing: 8pt;
+}
+.table td{
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+}

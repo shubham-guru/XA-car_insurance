@@ -1,0 +1,85 @@
+{
+  "VehicleDetails": {
+    "General": {
+      "Vin": "WA1ZZZF72JD026352",
+      "ModelYear": 2018,
+      "MakeId": 1004,
+      "MakeName": "AUDI",
+      "ModelId": 10032,
+      "ModelName": "Q7",
+      "TrimId": 100077,
+      "TrimName": "S-LINE",
+      "Series": null,
+      "BodyTypeId": 211,
+      "BodyTypeName": "SUV",
+      "EngineSizeId": 1026,
+      "EngineSizeName": "3.0 L",
+      "TransmissionId": 101,
+      "TransmissionName": "AUTOMATIC",
+      "Doors": 5,
+      "Seats": 7,
+      "EngineCylinders": 6,
+      "VehicleType": null,
+      "VehicleAgeByModelYear": null,
+      "BuildYear": 2017,
+      "ClassId": 103,
+      "ClassNameAr": "مركبة خفيفة",
+      "ClassNameEn": "Light Vehicle",
+      "EngineNumber": null,
+      "ColourId": null,
+      "ColourNameAr": null,
+      "ColourNameEn": null,
+      "EstimatedMileage": 78300,
+      "BuildDate": "2017-12"
+    },
+    "Technical": {
+      "EngineCode": null,
+      "EngineConf": null,
+      "EngineType": null,
+      "EngineVersion": null,
+      "EngineHead": null,
+      "EngineValves": null,
+      "EngineDisplacementCm3": {
+        "Value": "3000",
+        "Unit": "cm3",
+        "UnitLong": "cubic centimeters"
+      },
+      "EngineDisplacementCid": {
+        "Value": "183",
+        "Unit": "cid",
+        "UnitLong": "cubic inch"
+      },
+      "EngineDisplacementNominal": {
+        "Value": "3.0 L",
+        "Unit": "l",
+        "UnitLong": "liter(s)"
+      },
+      "EnginePowerHp": {
+        "Value": null,
+        "Unit": "hp"
+      },
+      "EnginePowerKw": {
+        "Value": null,
+        "Unit": "kW"
+      },
+      "EngineTurbo": null,
+      "Gears": null,
+      "FuelTypeId": null,
+      "FuelTypeNameAr": null,
+      "FuelTypeNameEn": null,
+      "EmissionStandard": null,
+      "DriveTrainId": null,
+      "DriveTrain": {
+        "ShortName": null,
+        "Name": null
+      },
+      "SteeringTypeId": 101,
+      "SteeringType": {
+        "ShortName": "LHD",
+        "Name": "Left Hand Drive"
+      }
+    }
+  },
+  "RequestId": "string",
+  "StatusCode": 200
+}

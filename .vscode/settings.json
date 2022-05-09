@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8e54377a-c585-4248-bffd-400cb3a965cf/resourceGroups/rg-apps-sandbox01/providers/Microsoft.Web/sites/app-vintest-sandbox-001",
+    "appService.deploySubpath": "."
+}
